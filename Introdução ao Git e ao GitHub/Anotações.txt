@@ -1,2 +1,23 @@
 Link para Download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+
+
+*Comandos utilizados no Git Bash:
+
+- git clone + "link c/ endereço de repositório" = Salva/baixa o repositório online na máquina.
+
+- cd + "nome da pasta" = comando para entrar em uma pasta específica.
+
+- git status = verificar estado da pasta/arquivo 
+
+
+Passo a passo para enviar modificações da máquina para repositório online:
+
+- git add .  = Adicionar/Acrescentar da máquina para repositório local.
+ou
+  git add -A
+
+- git commit -m "Inclusão das anotações do curso de Git/GitHub"
+
+- git push origin main = Enviando modificações para a nuvem/repositório online
